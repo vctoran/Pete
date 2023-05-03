@@ -63,8 +63,9 @@ nav a {
 }
 
 /* Images */
-img { flex: 1;
+img { display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   width: 100%;
   max-width: 200px;
   height: auto;
