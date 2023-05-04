@@ -18,14 +18,11 @@ h3 {
 
 /* Header */
 header {
-  display: flex;
-  justify-content: center;
   text-align: center;
-  align-items: center;
 }
 
 /* Containers */
-div {  
+div {
   background-color: #eae2b7;
   margin: auto;
   width: 600px;
@@ -36,16 +33,12 @@ article {
 }
 
 article div {
-  display: flex;
-  flex-direction: row;
   text-align: center;
   width: 100%;
 }
 
 /* Paragraphs */
 p {
-  display: flex;
-  flex-direction: row; 
   line-height: 1.5;
 }
 
@@ -63,10 +56,7 @@ nav a {
 }
 
 /* Images */
-img { display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
+img {
   width: 100%;
   max-width: 200px;
   height: auto;
@@ -80,10 +70,13 @@ img { display: flex;
 /* Footer */
 footer {
   text-align: center;
-  justify-content: center;
 }
 
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+.myColumnFlex{
+  display:flex;
+
 }
